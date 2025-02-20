@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .skill-bar {
+            background-color: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .skill-level {
+            background-color: #3b82f6;
+            height: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
+        <!-- Header -->
+        <div class="text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white p-8 rounded-lg">
+            <h1 class="text-4xl font-bold">John Doe</h1>
+            <p class="text-xl mt-2">Senior Software Engineer | Full-Stack Developer | AI Enthusiast</p>
+            <div class="mt-4 space-x-4">
+                <a href="mailto:johndoe@example.com" class="text-white hover:text-gray-200"><i class="fas fa-envelope"></i> johndoe@example.com</a>
+                <a href="tel:+1234567890" class="text-white hover:text-gray-200"><i class="fas fa-phone"></i> +1 234 567 890</a>
+                <a href="https://linkedin.com/in/johndoe" class="text-white hover:text-gray-200"><i class="fab fa-linkedin"></i> linkedin.com/in/johndoe</a>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-user mr-2"></i>Summary</h2>
+            <p class="mt-2">Experienced Software Engineer with strong back-end and front-end development expertise. Skilled in PHP frameworks (Laravel, Symfony, CodeIgniter) and client-side technologies (HTML, CSS, JavaScript, jQuery, Angular.js, Bootstrap, SASS). Proficient in building scalable web applications and integrating RESTful APIs. Experienced in version control using GIT (GitHub, Bitbucket) and deploying cloud-based solutions. Passionate about clean code, modern technologies, and delivering exceptional user experiences. Adept at working across all layers of a web application, from database design to deployment.</p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-briefcase mr-2"></i>Work Experience</h2>
+            <div class="mt-4 space-y-4">
+                <!-- Updated Work Experience -->
+                <div class="p-4 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold">Software Engineer</h3>
+                    <p class="text-gray-600"><strong>Sportserve</strong></p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li>Worked on sportsbook and online casino platforms, developing high-performance betting solutions for global markets.</li>
+                        <li>Integrated sports betting, live gaming, and payment solutions, ensuring seamless user experiences.</li>
+                        <li>Platforms deployed across multiple regions, serving thousands of active users in the iGaming industry.</li>
+                    </ul>
+                </div>
+                <div class="p-4 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold">Full Stack Web Developer</h3>
+                    <p class="text-gray-600"><strong>Performance Media Technologies</strong></p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li>Worked on products and tools related to shops, marketing, and the fashion industry.</li>
+                        <li>Products deployed in over 7 European countries in the fashion industry.</li>
+                    </ul>
+                </div>
+                <div class="p-4 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold">Engineer of Hardware Programming</h3>
+                    <p class="text-gray-600"><strong>Yerevan Telecommunications Research Institute</strong></p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li>Programmed CPLD and FPGA (Xilinx) using VHDL and Verilog hardware description languages.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education & Training -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-graduation-cap mr-2"></i>Education & Training</h2>
+            <div class="mt-4 space-y-4">
+                <div class="p-4 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold">MSc in Cybernetics – Electronics and Microelectronics</h3>
+                    <p class="text-gray-600"><strong>State Engineering University of Armenia (SEUA), Yerevan, Armenia (2005 - 2007)</strong></p>
+                </div>
+                <div class="p-4 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold">BSc in Cybernetics – Microsystems Technology</h3>
+                    <p class="text-gray-600"><strong>State Engineering University of Armenia (SEUA), Yerevan, Armenia (2001 - 2005)</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg shadow-sm">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-code mr-2"></i>Skills</h2>
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                <!-- Programming Languages -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Programming</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">Python</span>
+                        <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">TypeScript</span>
+                        <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">PHP</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Frameworks</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">AngularJS</span>
+                        <span class="bg-black text-white px-3 py-1 rounded-full text-sm">Laravel</span>
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">Symfony</span>
+                        <span class="bg-red-500 text-white px-3 py-1 rounded-full text-sm">Wordpress</span>
+                    </div>
+                </div>
+
+                <!-- Cloud Platforms -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Cloud</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">AWS</span>
+                        <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">Azure</span>
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">Google Cloud</span>
+                    </div>
+                </div>
+
+                <!-- DevOps Tools -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">DevOps</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">Docker</span>
+                        <span class="bg-black text-white px-3 py-1 rounded-full text-sm">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-certificate mr-2"></i>Certifications</h2>
+            <ul class="list-disc list-inside mt-2">
+                <li>AWS Certified Solutions Architect</li>
+                <li>Google Cloud Professional Developer</li>
+                <li>Certified Kubernetes Administrator</li>
+            </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-users mr-2"></i>Soft Skills</h2>
+            <ul class="list-disc list-inside mt-2">
+                <li>Strong communication and collaboration skills</li>
+                <li>Experienced in leading remote teams using Agile methodologies</li>
+                <li>Adaptable and quick learner</li>
+            </ul>
+        </div>
+
+        <!-- Languages -->
+        <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-blue-600"><i class="fas fa-language mr-2"></i>Languages</h2>
+            <ul class="list-disc list-inside mt-2">
+                <li><strong>Armenian</strong> – Native</li>
+                <li><strong>English</strong> – Intermediate</li>
+                <li><strong>Russian</strong> – Excellent</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
