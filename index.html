@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Robots -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex, noodp, noydir">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="bingbot" content="noindex, nofollow, noarchive">
+    <meta name="ia_archiver" content="noindex, nofollow">
+
+    <!-- Referrer & Framing -->
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
+
+    <!-- Empty social previews -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
     <title>Curriculum Vitae</title>
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
     <style>
         .skill-bar {
             background-color: #e2e8f0;
@@ -19,13 +36,84 @@
             height: 8px;
             border-radius: 4px;
         }
+
+        @page {
+            size: A4;
+            margin: 14mm;
+        }
+
+        @media print {
+            html, body {
+                background: #fff !important;
+                color: #1f2937 !important;
+                font-size: 10pt;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            body > .container {
+                width: 100% !important;
+                max-width: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+            }
+
+            body > .container > div {
+                margin-top: 12pt !important;
+                padding: 0 !important;
+                background: #fff !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+            }
+
+            body > .container > div:first-child {
+                margin-top: 0 !important;
+                padding-bottom: 10pt !important;
+                border-bottom: 1pt solid #cbd5e1;
+                color: #1f2937 !important;
+                text-align: left !important;
+            }
+
+            body > .container > div:first-child a {
+                color: #1f2937 !important;
+                overflow-wrap: anywhere;
+            }
+
+            h1 { font-size: 22pt !important; }
+            h2 { font-size: 14pt !important; }
+            h3 { font-size: 11pt !important; }
+            p, ul { margin-top: 4pt !important; }
+
+            .border-l-4 {
+                break-inside: avoid;
+                page-break-inside: avoid;
+                padding: 5pt 0 5pt 10pt !important;
+            }
+
+            h2, h3 {
+                break-after: avoid;
+                page-break-after: avoid;
+            }
+
+            li { break-inside: avoid; }
+
+            .grid { gap: 8pt !important; }
+            .grid > div { break-inside: avoid; }
+            .grid span {
+                background: #fff !important;
+                color: #1f2937 !important;
+                border: 1px solid #cbd5e1;
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
     <div class="container mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
         <!-- Header -->
         <div class="text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white p-8 rounded-lg">
-            <h1 class="text-4xl font-bold">John Doe</h1>
+            <h1 class="text-4xl font-bold">Gurgen</h1>
             <p class="text-xl mt-2">Senior Software Engineer | Full-Stack Developer | AI Enthusiast</p>
             <div class="mt-4 space-x-4">
                 <a href="mailto:johndoe@example.com" class="text-white hover:text-gray-200"><i class="fas fa-envelope"></i> johndoe@example.com</a>
